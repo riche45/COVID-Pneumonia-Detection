@@ -316,7 +316,7 @@ DESPUÉS: Modelo + Grad-CAM = Transparencia
 
 ![Grad-CAM Pneumonia 1](results/gradcam_3_PNEUMONIA_pred_PNEUMONIA.png)
 
-**Predicción: PNEUMONIA (76.0%) ✅ Correcto**
+**Predicción: PNEUMONIA  ✅ Correcto**
 
 </div>
 
@@ -338,7 +338,7 @@ DESPUÉS: Modelo + Grad-CAM = Transparencia
 
 ![Grad-CAM Pneumonia 2](results/gradcam_4_PNEUMONIA_pred_PNEUMONIA.png)
 
-**Predicción: PNEUMONIA (75.5%) ✅ Correcto**
+**Predicción: PNEUMONIA  ✅ Correcto**
 
 </div>
 
