@@ -9,8 +9,6 @@
 
 **Deep Learning para Screening de COVID-19 en Urgencias Hospitalarias**
 
-[🔬 Ver Notebook](#) | [📊 Resultados](#resultados)
-
 ---
 
 ### 🎯 **Sensitivity: 99.5%** | Accuracy: 84% | Built with PyTorch + ResNet34
@@ -185,7 +183,7 @@ Threshold: 0.5 (default)
 
 </div>
 
-*[Aquí irían tus imágenes de training_curves.png]*
+[imágenes de training_curves.png](results/training_curves.png)
 
 **Observaciones**:
 - ✅ Train Loss converge suavemente (0.20 → 0.04)
@@ -204,7 +202,7 @@ Threshold: 0.5 (default)
 
 </div>
 
-*[Aquí iría tu imagen de confusion_matrix_test.png]*
+[imagen de confusion_matrix_test.png](results/confusion_matrix_test.png)
 
 #### 💊 Interpretación Clínica
 
@@ -255,7 +253,7 @@ True Positives (TP) = 388
 
 </div>
 
-*[Aquí irían tus imágenes de sample_images.png]*
+[imágenes de sample_images.png](results/sample_images.png)
 
 **Características Visibles**:
 - **Normal**: Campos pulmonares transparentes, contornos definidos
@@ -269,7 +267,7 @@ True Positives (TP) = 388
 
 </div>
 
-*[Aquí iría tu imagen de batch_sample.png]*
+[imagen de batch_sample.png](results/batch_sample.png)
 
 **Transformaciones Aplicadas**:
 - ✅ Horizontal Flip (50%)
@@ -294,7 +292,7 @@ CUDA 11.0+ (opcional pero recomendado)
 
 ```bash
 # Clonar repositorio
-git clone https://github.com/riche45/covid-pneumonia-detection.git
+git clone https://github.com/riche45/COVID-Pneumonia-Detection.git
 cd covid-pneumonia-detection
 
 # Instalar dependencias
